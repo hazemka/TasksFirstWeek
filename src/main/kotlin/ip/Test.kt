@@ -1,5 +1,0 @@
-package ip
-
-fun main() {
-
-}

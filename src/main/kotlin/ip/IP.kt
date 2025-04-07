@@ -29,7 +29,3 @@ fun isValidNumber(num:String):Boolean{
     }
     return false
 }
-
-fun test(){
-
-}
