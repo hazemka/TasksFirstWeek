@@ -190,6 +190,7 @@ fun main() {
         , correctResult = false)
 }
 
+// fun to test case with result of case and correct result and return (true/false)
 fun test(name:String,result:Boolean,correctResult:Boolean){
     if (result == correctResult)
         println("Success - $name")

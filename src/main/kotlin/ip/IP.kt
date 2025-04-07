@@ -7,6 +7,7 @@ fun main() {
     println("The result of the IP check is ${ipv4Checker("192.168.1.1.")}")
 }
 
+// fun to check ip
 fun ipv4Checker(ip:String):Boolean{
     if (ip.isNotEmpty() && !ip.contains(" ") && !ip.startsWith(".")
         && !ip.endsWith(".")){
@@ -27,4 +28,8 @@ fun isValidNumber(num:String):Boolean{
         return true
     }
     return false
+}
+
+fun test(){
+
 }

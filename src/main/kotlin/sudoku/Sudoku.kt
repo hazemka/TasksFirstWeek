@@ -49,7 +49,7 @@ fun sudokuChecker(sudokuList:List<List<String>>):Boolean{
     return finalResult
 }
 
-
+// fun to check has a duplication in the sudoku column
 fun hasDuplicateInColumn(sudokuList: List<List<String>>,indexOfColumn:Int):Boolean{
     val checkList = mutableListOf<String>()
     for (row in 0 until 9){
