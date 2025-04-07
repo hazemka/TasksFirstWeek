@@ -5,6 +5,7 @@ fun main() {
     println("The result of the IP check is ${ipv4Checker("001..2.3.7.")}")
     println("The result of the IP check is ${ipv4Checker("1..2.3.7.")}")
     println("The result of the IP check is ${ipv4Checker("192.168.1.1.")}")
+    println("The result of the IP check is ${ipv4Checker("255.255.255.255")}")
 }
 
 // fun to check ip
