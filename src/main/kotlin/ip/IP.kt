@@ -19,6 +19,7 @@ fun ipv4Checker(ip:String):Boolean{
     return false
 }
 
+// check is the number is from 0-255 and not contains 0
 fun isValidNumber(num:String):Boolean{
      if (num.length > 1 && num.startsWith("0")){
         return false
